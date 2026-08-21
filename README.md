@@ -36,6 +36,7 @@
 
 <div align="center">
   <img src="./profile/streak.svg" height="195" alt="rroy233's Contribution Streak" />
+  <img src="./profile/languages-recent.svg" height="195" alt="rroy233's Recently Used Languages" />
 </div>
 
 <br/>
