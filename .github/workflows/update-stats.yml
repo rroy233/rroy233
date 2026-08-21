@@ -37,14 +37,19 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.PAT_TOKEN }}
 
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=rroy233&hide_border=true&background=ffffff&ring=B392F0&fire=FF9ECD&currStreakLabel=434d58&currStreakNum=36BCF7&sideNums=434d58&sideLabels=434d58&dates=434d58
+          path: profile/streak.svg
+          token: ${{ secrets.PAT_TOKEN }}
+
       - name: Download Additional Images
         run: |
           mkdir -p profile
           curl -s -o profile/header.svg "https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi%20there,%20I'm%20Roy%20👋&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff"
           
           curl -s -o profile/typing.svg "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+Scalable+Backend+Services+with+Go;Exploring+Cloud-Native+%26+Distributed+Systems"
-          
-          curl -s -o profile/streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=rroy233&hide_border=true&background=ffffff&ring=B392F0&fire=FF9ECD&currStreakLabel=434d58&currStreakNum=36BCF7&sideNums=434d58&sideLabels=434d58&dates=434d58"
           
           curl -s -o profile/activity.svg "https://github-readme-activity-graph-sable-two.vercel.app/graph?username=rroy233&bg_color=ffffff&color=434d58&line=36BCF7&point=B392F0&hide_border=true&height=250"
 
