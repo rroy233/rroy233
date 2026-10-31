@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">rroy233's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 304, Total Commits  : 2714, Total PRs: 33, Total Issues: 4, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 306, Total Commits  : 2714, Total PRs: 33, Total Issues: 4, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 98.7586847257749;
+        stroke-dashoffset: 98.69220865447443;
       }
     }
   
@@ -162,7 +162,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >304</text>
+      >306</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
